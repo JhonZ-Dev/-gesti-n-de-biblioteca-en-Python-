@@ -3,3 +3,7 @@ class Libro:
         self.titulo = titulo
         self.autor = autor
         self.isbn = isbn
+
+class Biblioteca:
+    def __init__(self):
+        self.libros = []
