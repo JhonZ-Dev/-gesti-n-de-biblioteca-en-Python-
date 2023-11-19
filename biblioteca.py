@@ -18,3 +18,7 @@ class Biblioteca:
                 print(f"Libro encontrado - Título: {libro.titulo}, Autor: {libro.autor}, ISBN: {libro.isbn}")
                 return
         print(f"Libro con el título '{titulo}' no encontrado en la biblioteca.")
+    def mostrar_libros(self):
+        print("Lista de libros en la biblioteca:")
+        for libro in self.libros:
+            print(f"Título: {libro.titulo}, Autor: {libro.autor}, ISBN: {libro.isbn}")
